@@ -11,6 +11,7 @@ dependencies = [
     "pandas>=2.3.3",
     "pandas-datareader>=0.10.0",
     "pandas-ta>=0.4.71b0",
+    "ruff>=0.14.8",
     "scikit-learn>=1.8.0",
     "scipy>=1.16.3",
     "seaborn>=0.13.2",

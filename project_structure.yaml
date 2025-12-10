@@ -1,0 +1,47 @@
+# ------------------------------------------------
+# Project Configuration Template (YAML)
+# ------------------------------------------------
+
+# --- 1. Project metadata ---
+project:
+  name: "forecast-lab"
+  version: "0.1.0"
+  description: "A demonstration project configuration file."
+
+# --- Directory Definitions (Parameters for the application) ---
+directories:
+  - name: src
+    type: directory
+    children:
+      - name: __init__.py
+        type: file
+      - name: models
+        type: directory
+        children:
+          - name: __init__.py
+            type: file
+      - name: dataset
+        type: directory
+        children:
+          - name: __init__.py
+            type: file
+      - name: train
+        type: directory
+        children:
+          - name: __init__.py
+            type: file
+      - name: utils
+        type: directory
+        children:
+          - name: __init__.py
+            type: file    
+  - name: data
+    type: directory
+  - name: resources
+    type: directory
+  - name: test
+    type: directory
+    children:
+      - name: __init__.py
+        type: file
+
