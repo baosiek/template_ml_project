@@ -53,10 +53,15 @@ template_ml_project/
 
 1. **Clone the repository:**
    ```bash
-   cd forecast_lab
+   cd template_ml_project
    ```
 
-2. **Install dependencies:**
+2. **Change project name in pyproject.toml:**
+   ```bash
+   nano pyproject.toml
+   ```
+
+3. **Install dependencies:**
    ```bash
    pip install -e .
    ```
