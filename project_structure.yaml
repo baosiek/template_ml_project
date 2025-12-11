@@ -4,9 +4,9 @@
 
 # --- 1. Project metadata ---
 project:
-  name: "forecast-lab"
+  name: "template-ml-project"
   version: "0.1.0"
-  description: "A demonstration project configuration file."
+  description: "A comprehensive Python project framework for machine learning research and experimentation."
 
 # --- 2, Directory Definitions (Parameters for the application) ---
 directories:
@@ -55,7 +55,7 @@ directories:
 # --- 3 Logging configuration ---
 logging:
   root_log_level: INFO
-  log_file_path: logs/forecast-lab.log
+  log_file_path: logs/template-ml-project.log
 
 
 

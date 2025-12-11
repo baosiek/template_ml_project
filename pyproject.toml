@@ -1,7 +1,7 @@
 [project]
-name = "forecast-lab"
+name = "template-ml-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "A comprehensive Python project framework for machine learning research and experimentation"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

@@ -1,10 +1,10 @@
-# Forecast Lab
+# Template ML Project
 
-A comprehensive Python project framework for time series forecasting and machine learning research. This project provides a structured template for building, training, and evaluating machine learning models with integrated logging, configuration management, and data handling utilities.
+A comprehensive Python project framework for machine learning research and experimentation. This project provides a structured template for building, training, and evaluating machine learning models with integrated logging, configuration management, and data handling utilities.
 
 ## Overview
 
-**Forecast Lab** is designed as a scalable foundation for financial forecasting and machine learning experimentation. It combines modern ML libraries (PyTorch, scikit-learn, LightGBM) with financial data tools (yfinance, pandas-datareader) and time-series analysis capabilities (statsmodels, pandas-ta).
+**Template ML Project** is designed as a scalable foundation for machine learning experimentation and model development. It combines modern ML libraries (PyTorch, scikit-learn, LightGBM) with financial data tools (yfinance, pandas-datareader) and time-series analysis capabilities (statsmodels, pandas-ta).
 
 **Version:** 0.1.0  
 **Python:** ≥3.13
@@ -22,7 +22,7 @@ A comprehensive Python project framework for time series forecasting and machine
 ## Project Structure
 
 ```
-forecast_lab/
+template_ml_project/
 ├── src/                          # Main source code
 │   ├── __init__.py
 │   ├── models/                   # Model implementations
@@ -113,7 +113,7 @@ YAML-based configuration file defining:
 **Structure:**
 ```yaml
 project:
-  name: "forecast-lab"
+  name: "template-ml-project"
   version: "0.1.0"
   description: "Your project description"
 
@@ -175,7 +175,7 @@ ruff format src/ test/
 
 Configure logging via `configs/logging/logging_config.json` (auto-generated). The default configuration uses:
 - Log Level: INFO
-- Log File: `logs/forecast-lab.log`
+- Log File: `logs/template-ml-project.log`
 
 ## Configuration
 
