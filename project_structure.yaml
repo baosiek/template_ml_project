@@ -8,7 +8,7 @@ project:
   version: "0.1.0"
   description: "A demonstration project configuration file."
 
-# --- Directory Definitions (Parameters for the application) ---
+# --- 2, Directory Definitions (Parameters for the application) ---
 directories:
   - name: src
     type: directory
@@ -37,11 +37,27 @@ directories:
             type: file    
   - name: data
     type: directory
+  - name: configs
+    type: directory
+    children:
+      - name: logging
+        type: directory
   - name: resources
+    type: directory
+  - name: logs
     type: directory
   - name: test
     type: directory
     children:
       - name: __init__.py
         type: file
+
+# --- 3 Logging configuration ---
+logging:
+  root_log_level: INFO
+  log_file_path: logs/forecast-lab.log
+
+
+
+
 

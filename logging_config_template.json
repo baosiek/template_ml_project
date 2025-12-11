@@ -1,0 +1,39 @@
+{
+    "version": 1,
+    "disable_existing_loggers": "False",
+    "formatters": {
+        "standard": {
+            "format": "%(asctime)s - %(module)s - %(levelname)s - %(message)s",
+            "datefmt": "%Y-%m-%d %H:%M:%S"
+        },
+        "detailed": {
+            "format": "%(asctime)s - %(name)s - %(levelname)s - %(module)s - line: %(lineno)d - %(message)s",
+            "datefmt": "%Y-%m-%d %H:%M:%S"
+        },
+        "simple": {
+            "format": "%(levelname)s - %(message)s",
+            "datefmt": "%Y-%m-%d %H:%M:%S"
+        }
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "formatter": "standard",
+            "level": "DEBUG"
+        },
+        "file_handler": {
+            "class": "logging.FileHandler",
+            "filename": "${LOG_FILE_PATH}",
+            "formatter": "detailed",
+            "level": "INFO",
+            "mode": "w"
+        }
+    },
+    "loggers": {
+        "root": {
+            "handlers": ["console", "file_handler"],
+            "level": "${ROOT_LOG_LEVEL}",
+            "propagate": "True"
+        }
+    }
+}

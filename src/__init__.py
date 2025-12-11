@@ -1,1 +1,1 @@
-# file generated automatically
+# file automatically generated
